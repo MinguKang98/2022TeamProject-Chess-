@@ -161,6 +161,7 @@ namespace DBtest
                     if(success==true)
                     {
                         MessageBox.Show("로그인 성공!");
+                        form3.auth_user = txtName.Text;
                         this.Hide();
                         Form4 form4 = new Form4();
                         form4.ShowDialog();

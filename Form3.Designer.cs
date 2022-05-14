@@ -1,6 +1,6 @@
 ﻿namespace DBtest
 {
-    partial class Form3
+    partial class form3
     {
         /// <summary>
         /// Required designer variable.
@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.user_picture = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_name = new System.Windows.Forms.TextBox();
+            this.txt_id = new System.Windows.Forms.TextBox();
+            this.txt_email = new System.Windows.Forms.TextBox();
+            this.txt_phone = new System.Windows.Forms.TextBox();
             this.btn_delete = new System.Windows.Forms.Button();
             this.btn_edit = new System.Windows.Forms.Button();
             this.btn_back = new System.Windows.Forms.Button();
@@ -47,17 +47,17 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user_picture)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // user_picture
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(87, 33);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(211, 193);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.user_picture.Location = new System.Drawing.Point(87, 33);
+            this.user_picture.Name = "user_picture";
+            this.user_picture.Size = new System.Drawing.Size(211, 193);
+            this.user_picture.TabIndex = 0;
+            this.user_picture.TabStop = false;
             // 
             // label1
             // 
@@ -95,33 +95,33 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Phone";
             // 
-            // textBox1
+            // txt_name
             // 
-            this.textBox1.Location = new System.Drawing.Point(408, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(220, 21);
-            this.textBox1.TabIndex = 5;
+            this.txt_name.Location = new System.Drawing.Point(408, 30);
+            this.txt_name.Name = "txt_name";
+            this.txt_name.Size = new System.Drawing.Size(220, 21);
+            this.txt_name.TabIndex = 5;
             // 
-            // textBox2
+            // txt_id
             // 
-            this.textBox2.Location = new System.Drawing.Point(408, 88);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(220, 21);
-            this.textBox2.TabIndex = 6;
+            this.txt_id.Location = new System.Drawing.Point(408, 88);
+            this.txt_id.Name = "txt_id";
+            this.txt_id.Size = new System.Drawing.Size(220, 21);
+            this.txt_id.TabIndex = 6;
             // 
-            // textBox3
+            // txt_email
             // 
-            this.textBox3.Location = new System.Drawing.Point(408, 143);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(220, 21);
-            this.textBox3.TabIndex = 7;
+            this.txt_email.Location = new System.Drawing.Point(408, 143);
+            this.txt_email.Name = "txt_email";
+            this.txt_email.Size = new System.Drawing.Size(220, 21);
+            this.txt_email.TabIndex = 7;
             // 
-            // textBox4
+            // txt_phone
             // 
-            this.textBox4.Location = new System.Drawing.Point(408, 205);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(220, 21);
-            this.textBox4.TabIndex = 8;
+            this.txt_phone.Location = new System.Drawing.Point(408, 205);
+            this.txt_phone.Name = "txt_phone";
+            this.txt_phone.Size = new System.Drawing.Size(220, 21);
+            this.txt_phone.TabIndex = 8;
             // 
             // btn_delete
             // 
@@ -214,7 +214,7 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "승";
             // 
-            // Form3
+            // form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -223,19 +223,19 @@
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.btn_edit);
             this.Controls.Add(this.btn_delete);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_phone);
+            this.Controls.Add(this.txt_email);
+            this.Controls.Add(this.txt_id);
+            this.Controls.Add(this.txt_name);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
-            this.Name = "Form3";
+            this.Controls.Add(this.user_picture);
+            this.Name = "form3";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user_picture)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -245,15 +245,15 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox user_picture;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_name;
+        private System.Windows.Forms.TextBox txt_id;
+        private System.Windows.Forms.TextBox txt_email;
+        private System.Windows.Forms.TextBox txt_phone;
         private System.Windows.Forms.Button btn_delete;
         private System.Windows.Forms.Button btn_edit;
         private System.Windows.Forms.Button btn_back;
